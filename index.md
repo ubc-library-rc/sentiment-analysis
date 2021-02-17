@@ -6,14 +6,20 @@ nav_order: 1
 
 ## Note: this workshop is in development and not yet complete.
 
-Description...
+## Description...
+Sentiment Analysis is a type of text mining that is used to measure the attitudes, emotion or sentiments in a text. It can be used for a wide range of research topics such as assessing public perceptions of an event, monitoring emotion on social media, and analysing customer reviews and attitudes.
+
+In this workshop we’ll look at Sentiment Analysis across disciplines, discuss strengths and limitations, and introduce common tools and procedures. Then we’ll look at an example using Python's NLTK (Natural Language Toolkit) with a model called VADER (Valence Aware Dictionary for Sentiment Reasoning).
+
+Finally, we’ll do a hands-on activity to calculate sentiment for a paragraph of text using the programming language Python, Anaconda (an open source tool for organizing and setting up your Python environment), and NLTK. 
 
 ## Learning objectives
 
-At the end of this workshop, you will be able to:
-1.
-2.
-3.
+By the end of this workshop participants will be able to:
+
+1. describe what sentiment analysis is, including its strengths and limitations
+2. locate and use appropriate software and tools
+3. develop code for a sample text that can be modifed and reapplied to other texts
 
 ## Schedule
 
