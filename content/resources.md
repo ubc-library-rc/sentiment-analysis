@@ -13,10 +13,10 @@ nav_order: 25
 ## Sentiment Analysis 
 ### Guides and Handbooks 
 
-- Liu, Bing. _Sentiment Analysis: Mining Opinions, Sentiments, and Emotions._ 2nd ed., Cambridge University Press, 2020. UBC Library link (ebook available): <http://resolve.library.ubc.ca/cgi-bin/catsearch?bid=11466845>
-
 - Cambria, Erik, Dipankar Das, Sivaji Bandyopadhyay, and Antonio Feraco.  _A practical guide to sentiment analysis._ Springer, 2017.  
 UBC Library link (ebook available): <http://resolve.library.ubc.ca/cgi-bin/catsearch?bid=8790457>
+
+- Liu, Bing. _Sentiment Analysis: Mining Opinions, Sentiments, and Emotions._ 2nd ed., Cambridge University Press, 2020. UBC Library link (ebook available): <http://resolve.library.ubc.ca/cgi-bin/catsearch?bid=11466845>
 
 - Thelwall, Mike. "_Sentiment Analysis._" The SAGE Handbook of social media research methods, edited by Luke Sloan and Anabel Quan-Haase, SAGE Publications Ltd, 2017, pp 545-554. 
 UBC Library link (ebook available): <http://resolve.library.ubc.ca/cgi-bin/catsearch?bid=9081741>
