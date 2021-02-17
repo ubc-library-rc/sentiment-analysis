@@ -24,7 +24,7 @@ UBC Library link (ebook available): <http://resolve.library.ubc.ca/cgi-bin/catse
 - Thelwall, Mike.  "_Sentiment analysis for small and big data._" The SAGE Handbook of online research methods, edited by Nigel G. Fielding, Raymond M. Lee and Grant Blank. SAGE Publications Ltd, 2017, pp. 344-360. 
 UBC Library link (ebook available): <http://resolve.library.ubc.ca/cgi-bin/catsearch?bid=8980976>  
 
-## VADER (Valence Aware Dictionary and sEntiment Reasoner)
+### VADER (Valence Aware Dictionary and sEntiment Reasoner)
 - Hutto, C.J. & Eric Gilbert, E.E. "VADER: A Parsimonious Rule-based Model for Sentiment Analysis of Social Media Text." Eighth International Conference on Weblogs and Social Media (ICWSM-14). Ann Arbor, MI, June 2014. <https://www.aaai.org/ocs/index.php/ICWSM/ICWSM14/paper/viewPaper/8109>
 
 ### Multilingual Sentiment Analysis
