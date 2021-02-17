@@ -6,9 +6,9 @@ nav_order: 25
 # Resources
 
 ## Tools used in this workshop
-- Anaconda: https://www.anaconda.com/products/individual 
-- VADER (Valence Aware Dictionary and sEntiment Reasoner): https://pypi.org/project/vaderSentiment/
-- NLTK (Natural Language Toolkit): https://www.nltk.org/
+- Anaconda: <https://www.anaconda.com/products/individual>
+- VADER (Valence Aware Dictionary and sEntiment Reasoner): <https://pypi.org/project/vaderSentiment/>
+- NLTK (Natural Language Toolkit): <https://www.nltk.org/>
 
 ## Sentiment Analysis 
 ### Guides and Handbooks 
@@ -24,7 +24,7 @@ UBC Library link (ebook available): <http://resolve.library.ubc.ca/cgi-bin/catse
 
 ### Multilingual Sentiment Analysis
 
-- Dashtipour, Kia, et al. "Multilingual Sentiment Analysis: State of the Art and Independent Comparison of Techniques." Cognitive Computation, vol. 8, no. 4, 2016, pp. 757-771. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4981629/
+- Dashtipour, Kia, et al. "Multilingual Sentiment Analysis: State of the Art and Independent Comparison of Techniques." Cognitive Computation, vol. 8, no. 4, 2016, pp. 757-771. <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4981629/>
 
 
 
