@@ -8,4 +8,4 @@ nav_order: 2
 Placeholder for first page of lesson
 ![Reactions menu](content/zoom-figures/reactions.png)
 
-##What is Sentiment Analysis? 
+## What is Sentiment Analysis? 
