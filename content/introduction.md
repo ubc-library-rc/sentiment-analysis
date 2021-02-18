@@ -36,5 +36,9 @@ For example, a restaurant reviewer may love the food but be frustrated with the 
 
 ## Sample Sentiment Analysis Projects
 
+**NaSent – Stanford's Neural Analysis of Sentiment**
+Analyzes sentences from movie reviews and gauges the sentiments they express on a five-point scale from strong like to strong dislike. Experiment with the online demo at <https://nlp.stanford.edu/sentiment/>
+
+
 ## Tools and Methods used for Sentiment Analysis
 
