@@ -2,7 +2,7 @@
  layout: default
  title: Introduction to Sentiment Analysis
  parent: Outline
- nav_order: 3
+ nav_order: 11
 ---
 # An Introduction to Sentiment Analysis
 Placeholder for first page of lesson
