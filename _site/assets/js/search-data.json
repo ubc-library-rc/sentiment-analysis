@@ -2,187 +2,187 @@
     "doc": "Example in practice - NLTK with VADER",
     "title": "Example in practice - NLTK with VADER",
     "content": " ",
-    "url": "http://localhost:4000/content/VADER.html",
+    "url": "http://localhost:4001/content/VADER.html",
     "relUrl": "/content/VADER.html"
   },"1": {
     "doc": "Acknowledgements",
     "title": "Acknowledgements",
     "content": "Some workshop content adapted from The Programming Historian tutorial, Sentiment Analysis for Exploratory Data Analysis by Zoë Wilkinson Saldaña, under the terms of the Creative Commons Attribution 4.0 license. Site template adapted from the just-the-docs Jekyll template created by Patrick Marsceil and available under the MIT License. ",
-    "url": "http://localhost:4000/acknowledgements.html",
+    "url": "http://localhost:4001/acknowledgements.html",
     "relUrl": "/acknowledgements.html"
   },"2": {
     "doc": "Activity - Running a script and reading results",
     "title": "Activity: Running a script and reading results",
     "content": " ",
-    "url": "http://localhost:4000/content/activity.html#activity-running-a-script-and-reading-results",
+    "url": "http://localhost:4001/content/activity.html#activity-running-a-script-and-reading-results",
     "relUrl": "/content/activity.html#activity-running-a-script-and-reading-results"
   },"3": {
     "doc": "Activity - Running a script and reading results",
     "title": "Activity - Running a script and reading results",
     "content": " ",
-    "url": "http://localhost:4000/content/activity.html",
+    "url": "http://localhost:4001/content/activity.html",
     "relUrl": "/content/activity.html"
   },"4": {
     "doc": "Outline",
     "title": "Note: this workshop is in development and not yet complete.",
     "content": " ",
-    "url": "http://localhost:4000/#note-this-workshop-is-in-development-and-not-yet-complete",
+    "url": "http://localhost:4001/#note-this-workshop-is-in-development-and-not-yet-complete",
     "relUrl": "/#note-this-workshop-is-in-development-and-not-yet-complete"
   },"5": {
     "doc": "Outline",
     "title": "Description",
     "content": "Sentiment Analysis is a type of text mining that is used to measure the attitudes, emotion or sentiments in a text. It can be used for a wide range of research topics such as assessing public perceptions of an event, monitoring emotion on social media, and analysing customer reviews and attitudes. In this workshop we’ll look at Sentiment Analysis across disciplines, discuss strengths and limitations, and introduce common tools and procedures. Then we’ll look at an example using Python’s NLTK (Natural Language Toolkit) with a model called VADER (Valence Aware Dictionary for Sentiment Reasoning). Finally, we’ll do a hands-on activity to calculate sentiment for a paragraph of text using the programming language Python, Anaconda (an open source tool for organizing and setting up your Python environment), and NLTK. ",
-    "url": "http://localhost:4000/#description",
+    "url": "http://localhost:4001/#description",
     "relUrl": "/#description"
   },"6": {
     "doc": "Outline",
     "title": "Learning objectives",
     "content": "By the end of this workshop participants will be able to: . | describe what sentiment analysis is, including its strengths and limitations | locate and use appropriate software and tools | develop code for a sample text that can be modifed and reapplied to other texts | . ",
-    "url": "http://localhost:4000/#learning-objectives",
+    "url": "http://localhost:4001/#learning-objectives",
     "relUrl": "/#learning-objectives"
   },"7": {
     "doc": "Outline",
     "title": "Schedule",
     "content": "| 0:00 | Welcome and using Zoom | . | 0:05 | Orientation | . | 0:10 | What is Sentiment Analysis? | . | 0:20 | Example in practice: NLTK with VADER | . | 0:30 | Setting up your system with Python &amp; Anaconda | . | 1:00 | Activity: Running a script and reading results | . | 1:25 | Discussion and Wrap-up | . ",
-    "url": "http://localhost:4000/#schedule",
+    "url": "http://localhost:4001/#schedule",
     "relUrl": "/#schedule"
   },"8": {
     "doc": "Outline",
     "title": "Resources",
     "content": ". | [eg. link to external slides] | . ",
-    "url": "http://localhost:4000/#resources",
+    "url": "http://localhost:4001/#resources",
     "relUrl": "/#resources"
   },"9": {
     "doc": "Outline",
     "title": "Outline",
     "content": " ",
-    "url": "http://localhost:4000/",
+    "url": "http://localhost:4001/",
     "relUrl": "/"
   },"10": {
     "doc": "What is Sentiment Analysis?",
     "title": "What is Sentiment Analysis? A Brief Introduction",
     "content": " ",
-    "url": "http://localhost:4000/content/introduction.html#what-is-sentiment-analysis-a-brief-introduction",
+    "url": "http://localhost:4001/content/introduction.html#what-is-sentiment-analysis-a-brief-introduction",
     "relUrl": "/content/introduction.html#what-is-sentiment-analysis-a-brief-introduction"
   },"11": {
     "doc": "What is Sentiment Analysis?",
     "title": "Definition",
     "content": "“Sentiment analysis or opinion mining is the computational study of people’s opinions, sentiments, evaluations, attitudes, moods, and emotions.” . Bing Liu, Many Facets of Sentiment Analysis. A practical guide to sentiment analysis (2017). ",
-    "url": "http://localhost:4000/content/introduction.html#definition",
+    "url": "http://localhost:4001/content/introduction.html#definition",
     "relUrl": "/content/introduction.html#definition"
   },"12": {
     "doc": "What is Sentiment Analysis?",
     "title": "Common Types of Sentiment Analysis",
     "content": ". | Standard sentiment analysis Detects polarity of a sentiment within a text and classifies it as Positive, Negative, or Neutral. For example: . | Fine-grained Sentiment Analysis Also focused on polarity, this type of sentiment analysis adds a few more categories to obtain more granular results. For example: . | Emotion detection (ED) This branch of sentiment analysis detects and analyses the emotions that underlie a text. It makes associations between words and emotions like anger, happiness, frustration, etc. For example: . | Feature or Aspect-Based sentiment analysis Texts are dissected to identify the features of a product that are discussed and the sentiments expressed about these features or aspects. In many cases, a binary positive/negative does not reflect differing sentiments expressed in different aspects of a single text. For example, a restaurant reviewer may love the food but be frustrated with the service. | . ",
-    "url": "http://localhost:4000/content/introduction.html#common-types-of-sentiment-analysis",
+    "url": "http://localhost:4001/content/introduction.html#common-types-of-sentiment-analysis",
     "relUrl": "/content/introduction.html#common-types-of-sentiment-analysis"
   },"13": {
     "doc": "What is Sentiment Analysis?",
     "title": "Sentiment Analysis Across Disciplines",
     "content": " ",
-    "url": "http://localhost:4000/content/introduction.html#sentiment-analysis-across-disciplines",
+    "url": "http://localhost:4001/content/introduction.html#sentiment-analysis-across-disciplines",
     "relUrl": "/content/introduction.html#sentiment-analysis-across-disciplines"
   },"14": {
     "doc": "What is Sentiment Analysis?",
     "title": "Limitations and Pitfalls",
     "content": " ",
-    "url": "http://localhost:4000/content/introduction.html#limitations-and-pitfalls",
+    "url": "http://localhost:4001/content/introduction.html#limitations-and-pitfalls",
     "relUrl": "/content/introduction.html#limitations-and-pitfalls"
   },"15": {
     "doc": "What is Sentiment Analysis?",
     "title": "Sample Sentiment Analysis Projects",
     "content": "NaSent – Stanford’s Neural Analysis of Sentiment Analyzes sentences from movie reviews and gauges the sentiments they express on a five-point scale from strong like to strong dislike. Experiment with the online demo at https://nlp.stanford.edu/sentiment/ . ",
-    "url": "http://localhost:4000/content/introduction.html#sample-sentiment-analysis-projects",
+    "url": "http://localhost:4001/content/introduction.html#sample-sentiment-analysis-projects",
     "relUrl": "/content/introduction.html#sample-sentiment-analysis-projects"
   },"16": {
     "doc": "What is Sentiment Analysis?",
     "title": "Tools and Methods used for Sentiment Analysis",
     "content": " ",
-    "url": "http://localhost:4000/content/introduction.html#tools-and-methods-used-for-sentiment-analysis",
+    "url": "http://localhost:4001/content/introduction.html#tools-and-methods-used-for-sentiment-analysis",
     "relUrl": "/content/introduction.html#tools-and-methods-used-for-sentiment-analysis"
   },"17": {
     "doc": "What is Sentiment Analysis?",
     "title": "What is Sentiment Analysis?",
     "content": " ",
-    "url": "http://localhost:4000/content/introduction.html",
+    "url": "http://localhost:4001/content/introduction.html",
     "relUrl": "/content/introduction.html"
   },"18": {
     "doc": "Land acknowledgement",
     "title": "Land acknowledgement",
     "content": "Before beginning the workshop, we’d like to acknowledge the indigenous lands where we are located. UBC Vancouver is located on the traditional, ancestral, and unceded territory of the xʷməθkʷəy̓əm (Musqueam), səl̓ilwətaɁɬ təməxʷ (Tsleil-Waututh), Stz’uminus, S’ólh Téméxw (Stó:lō), Skwxwú7mesh-ulh Temíx̱w (Squamish), and Coast Salish peoples. Please take a moment to explore native-land.ca so that you can visualize the indigenous territories, languages, and treaties in your area. ",
-    "url": "http://localhost:4000/land-acknowledgement.html",
+    "url": "http://localhost:4001/land-acknowledgement.html",
     "relUrl": "/land-acknowledgement.html"
   },"19": {
     "doc": "Participating online",
     "title": "Participating online",
     "content": "Active participation enlivens the session with other voices and perspectives. We encourage you to engage with instructors and with each other. Microphones are muted by default to improve audio quality and recording is disabled to preserve participant privacy. The Zoom toolbar provides several ways to be part of the conversation: . ",
-    "url": "http://localhost:4000/online.html",
+    "url": "http://localhost:4001/online.html",
     "relUrl": "/online.html"
   },"20": {
     "doc": "Participating online",
     "title": "Reactions menu",
     "content": "Open the Reactions menu and click an icon to communicate with the instructors. Use this to answer yes/no questions or to raise your hand when instructors invite you to ask a question, comment, or share your screen. ",
-    "url": "http://localhost:4000/online.html#reactions-menu",
+    "url": "http://localhost:4001/online.html#reactions-menu",
     "relUrl": "/online.html#reactions-menu"
   },"21": {
     "doc": "Participating online",
     "title": "Chat window",
     "content": "Use the Chat window to comment or ask a question at any time. Instructors will do their best to respond, sometimes waiting for a break in the lesson to do so. The Chat window is a good place to report problems with your audio connection. Instructors may also use it to share links to material mentioned in the session. ",
-    "url": "http://localhost:4000/online.html#chat-window",
+    "url": "http://localhost:4001/online.html#chat-window",
     "relUrl": "/online.html#chat-window"
   },"22": {
     "doc": "Participating online",
     "title": "Share your screen",
     "content": "In some cases instructors may invite you to share your screen. Raise your hand to indicate that you’re ready to share. When called upon click Share screen, select a window to display, and click Share. ",
-    "url": "http://localhost:4000/online.html#share-your-screen",
+    "url": "http://localhost:4001/online.html#share-your-screen",
     "relUrl": "/online.html#share-your-screen"
   },"23": {
     "doc": "Participating online",
     "title": "Contribute to the Whiteboard",
     "content": "The Whiteboard is a collaborative space that everyone can annotate with drawings and text. When the whiteboard is shared click View options and select Annotate. This opens the annotation toolbar. Drawings and text you add to the screen will be visible to everyone in the session or breakout room. ",
-    "url": "http://localhost:4000/online.html#contribute-to-the-whiteboard",
+    "url": "http://localhost:4001/online.html#contribute-to-the-whiteboard",
     "relUrl": "/online.html#contribute-to-the-whiteboard"
   },"24": {
     "doc": "Resources",
     "title": "Resources",
     "content": " ",
-    "url": "http://localhost:4000/content/resources.html",
+    "url": "http://localhost:4001/content/resources.html",
     "relUrl": "/content/resources.html"
   },"25": {
     "doc": "Resources",
     "title": "Tools used in this workshop",
     "content": ". | Anaconda: https://www.anaconda.com/products/individual | VADER (Valence Aware Dictionary and sEntiment Reasoner): https://pypi.org/project/vaderSentiment/ | NLTK (Natural Language Toolkit): https://www.nltk.org/ | . ",
-    "url": "http://localhost:4000/content/resources.html#tools-used-in-this-workshop",
+    "url": "http://localhost:4001/content/resources.html#tools-used-in-this-workshop",
     "relUrl": "/content/resources.html#tools-used-in-this-workshop"
   },"26": {
     "doc": "Resources",
     "title": "Sentiment Analysis",
     "content": "Guides and Handbooks . | Cambria, Erik, Dipankar Das, Sivaji Bandyopadhyay, and Antonio Feraco. A practical guide to sentiment analysis. Springer, 2017. UBC Library link (ebook available): http://resolve.library.ubc.ca/cgi-bin/catsearch?bid=8790457 . | Liu, Bing. Sentiment Analysis: Mining Opinions, Sentiments, and Emotions. 2nd ed., Cambridge University Press, 2020. UBC Library link (ebook available): http://resolve.library.ubc.ca/cgi-bin/catsearch?bid=11466845 . | Thelwall, Mike. “Sentiment Analysis.” The SAGE Handbook of social media research methods, edited by Luke Sloan and Anabel Quan-Haase, SAGE Publications Ltd, 2017, pp 545-554. UBC Library link (ebook available): http://resolve.library.ubc.ca/cgi-bin/catsearch?bid=9081741 . | Thelwall, Mike. “Sentiment analysis for small and big data.” The SAGE Handbook of online research methods, edited by Nigel G. Fielding, Raymond M. Lee and Grant Blank. SAGE Publications Ltd, 2017, pp. 344-360. UBC Library link (ebook available): http://resolve.library.ubc.ca/cgi-bin/catsearch?bid=8980976 . | . VADER (Valence Aware Dictionary and sEntiment Reasoner) . | Hutto, C.J. &amp; Eric Gilbert, E.E. “VADER: A Parsimonious Rule-based Model for Sentiment Analysis of Social Media Text.” Eighth International Conference on Weblogs and Social Media (ICWSM-14). Ann Arbor, MI, June 2014. https://www.aaai.org/ocs/index.php/ICWSM/ICWSM14/paper/viewPaper/8109 | . Multilingual Sentiment Analysis . | Dashtipour, Kia, et al. “Multilingual Sentiment Analysis: State of the Art and Independent Comparison of Techniques.” Cognitive Computation, vol. 8, no. 4, 2016, pp. 757-771. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4981629/ | . ",
-    "url": "http://localhost:4000/content/resources.html#sentiment-analysis",
+    "url": "http://localhost:4001/content/resources.html#sentiment-analysis",
     "relUrl": "/content/resources.html#sentiment-analysis"
   },"27": {
     "doc": "Setting up your system with Python & Anaconda",
     "title": "Setting up your system with Python &amp; Anaconda",
     "content": "Anaconda is an open source tool for organizing and setting up your Python environment. It handles dependencies, organizes Python libraries, and allows you to have multiple instances of Python set up on your machine without trouble. Install Anaconda Navigator . Get started with Conda . ",
-    "url": "http://localhost:4000/content/setup.html#setting-up-your-system-with-python--anaconda",
+    "url": "http://localhost:4001/content/setup.html#setting-up-your-system-with-python--anaconda",
     "relUrl": "/content/setup.html#setting-up-your-system-with-python--anaconda"
   },"28": {
     "doc": "Setting up your system with Python & Anaconda",
     "title": "Getting started with Conda from Navigator",
-    "content": "Open navigator and go to “Environments”. Create a new environment by selecting “create”. Select the version of Python you want to work with. By default Anaconda selects the most recent version, in this case Python 3.8 which is fine for this workshop. Choose a short, descriptive name with no spaces or use . You should see your new environment in the left hand column. Clicking on the name of the environment activates the environment which is indicated by a green triangle or “play” button. All Python libraries that are currently in the environment are listed on the right hand side. To start using your new environment, click on the green “play” button and select “open in terminal”. Using Anaconda without Navigator . To get started with Python we need to create a new Anaconda environment using the “conda” command. This calls on Anaconda to make a new bucket with the correct environment variables for a given version of python. The base command is as follows where “myenv” is the name of your new environment. Input . conda create -n myenv . And if you want to specify a specific version of python you can add it after the base command. Input . conda create -n myenv python=3.6 . Once created you need to activate the environment to use it. Let’s say you’ve made several environments and want to double check or delete what you’ve done. Input . conda info --envs . Activate conda environment . Input . conda activate myenv . and check it is correctly set up. Input . conda env --list . More on conda commands and environment management here: https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#updating-an-environment {.note} . ",
-    "url": "http://localhost:4000/content/setup.html#getting-started-with-conda-from-navigator",
+    "content": "Open navigator and go to “Environments”. Create a new environment by selecting “create”. Select the version of Python you want to work with. By default Anaconda selects the most recent version, in this case Python 3.8 which is fine for this workshop. Choose a short, descriptive name with no spaces. You should see your new environment in the left hand column. Clicking on the name of the environment activates the environment which is indicated by a green triangle or “play” button. All Python libraries that are currently in the environment are listed on the right hand side. To start using your new environment, click on the green “play” button and select “open in terminal”. Using Anaconda without Navigator . To get started with Python we need to create a new Anaconda environment using the “conda” command. This calls on Anaconda to make a new bucket with the correct environment variables for a given version of python. The base command is as follows where “myenv” is the name of your new environment. Input . conda create -n myenv . And if you want to specify a specific version of python you can add it after the base command. Input . conda create -n myenv python=3.6 . Once created you need to activate the environment to use it. Let’s say you’ve made several environments and want to double check or delete what you’ve done. Input . conda info --envs . Activate conda environment . Input . conda activate myenv . and check it is correctly set up. Input . conda env --list . More on conda commands and environment management here: https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#updating-an-environment {.note} . ",
+    "url": "http://localhost:4001/content/setup.html#getting-started-with-conda-from-navigator",
     "relUrl": "/content/setup.html#getting-started-with-conda-from-navigator"
   },"29": {
     "doc": "Setting up your system with Python & Anaconda",
     "title": "Installing Python libraries",
     "content": "Generally the easiest way to install Python libraries is using “pip” which is a command line tool. To begin with we need to install NLTK (Natural Language ToolKit) using pip. Input . pip install nltk . More on pip… {.note} . Then we can call on nltk and install the rest of the pieces by “importing” nltk and downloading the vader lexicon (a dataset that determines semantic ranking for different terms) and punkt which is a tokenizer . Open a file in a text editor and type: . import nltk nltk.download('vader_lexicon') nltk.download('punkt') . Explore VADER lexicon: https://www.kaggle.com/nltkdata/vader-lexicon {.note} . Once you’ve taken these steps you are ready to run Vader commands. Check NLTK setup . Check version of python Input . Check version of NLTK . Input . Check version of VADER . Input . ",
-    "url": "http://localhost:4000/content/setup.html#installing-python-libraries",
+    "url": "http://localhost:4001/content/setup.html#installing-python-libraries",
     "relUrl": "/content/setup.html#installing-python-libraries"
   },"30": {
     "doc": "Setting up your system with Python & Anaconda",
     "title": "Setting up your system with Python & Anaconda",
     "content": " ",
-    "url": "http://localhost:4000/content/setup.html",
+    "url": "http://localhost:4001/content/setup.html",
     "relUrl": "/content/setup.html"
   }
 }

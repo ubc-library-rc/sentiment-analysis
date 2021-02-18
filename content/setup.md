@@ -16,15 +16,15 @@ Get started with Conda
 ## Getting started with Conda from Navigator
 Open navigator and go to "Environments".
 
-![Anaconda Navigator first screen](content/images/anaconda-navigator.png)
+![Anaconda Navigator first screen](/content/images/anaconda-navigator.png)
 
 Create a new environment by selecting "create".
 
-![Anaconda Navigator select environment button](content/images/anaconda-navigator-env.png)
+![Anaconda Navigator select environment button](/content/images/anaconda-navigator-env.png)
 
 Select the version of Python you want to work with. By default Anaconda selects the most recent version, in this case Python 3.8 which is fine for this workshop. Choose a short, descriptive name with no spaces.
 
-![Anaconda Navigator choose type of python](content/images/anaconda-navigator-env-choose-python.png)
+![Anaconda Navigator choose type of python](/content/images/anaconda-navigator-env-choose-python.png)
 
 You should see your new environment in the left hand column. Clicking on the name of the environment activates the environment which is indicated by a green triangle or "play" button.
 
@@ -32,11 +32,11 @@ You should see your new environment in the left hand column. Clicking on the nam
 
 All Python libraries that are currently in the environment are listed on the right hand side.
 
-![Anaconda Navigator list of packages on right hand side of screen](content/images/anaconda-navigator-myenv-packages.png)
+![Anaconda Navigator list of packages on right hand side of screen](/content/images/anaconda-navigator-myenv-packages.png)
 
 To start using your new environment, click on the green "play" button and select "open in terminal".
 
-![Anaconda Navigator open in terminal](content/images/anaconda-navigator-myenv-terminal.png)
+![Anaconda Navigator open in terminal](/content/images/anaconda-navigator-myenv-terminal.png)
 
 ### Using Anaconda without Navigator
 

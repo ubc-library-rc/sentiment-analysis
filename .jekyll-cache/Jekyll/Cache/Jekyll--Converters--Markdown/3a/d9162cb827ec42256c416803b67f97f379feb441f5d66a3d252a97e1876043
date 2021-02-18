@@ -1,4 +1,4 @@
-I"�<h1 id="setting-up-your-system-with-python--anaconda">Setting up your system with Python &amp; Anaconda</h1>
+I"&<h1 id="setting-up-your-system-with-python--anaconda">Setting up your system with Python &amp; Anaconda</h1>
 
 <p>Anaconda is an open source tool for organizing and setting up your Python environment. It handles dependencies, organizes Python libraries, and allows you to have multiple instances of Python set up on your machine without trouble.</p>
 
@@ -7,23 +7,29 @@
 <p>Get started with Conda</p>
 
 <h2 id="getting-started-with-conda-from-navigator">Getting started with Conda from Navigator</h2>
-<p>Open navigator and go to “Environments”.
-<img src="content/images/anaconda-navigator.png" alt="Anaconda Navigator first screen" /></p>
+<p>Open navigator and go to “Environments”.</p>
 
-<p>Create a new environment by selecting “create”.
-<img src="content/images/anaconda-navigator-env.png" alt="Anaconda Navigator select environment button" /></p>
+<p><img src="/content/images/anaconda-navigator.png" alt="Anaconda Navigator first screen" /></p>
 
-<p>Select the version of Python you want to work with. By default Anaconda selects the most recent version, in this case Python 3.8 which is fine for this workshop. Choose a short, descriptive name with no spaces or use
-<img src="content/images/anaconda-navigator-env-choose-python.png" alt="Anaconda Navigator choose type of python" /></p>
+<p>Create a new environment by selecting “create”.</p>
 
-<p>You should see your new environment in the left hand column. Clicking on the name of the environment activates the environment which is indicated by a green triangle or “play” button.
-<img src="content/images/anaconda-navigator-myenv-activate.png" alt="Anaconda Navigator activate environment" /></p>
+<p><img src="/content/images/anaconda-navigator-env.png" alt="Anaconda Navigator select environment button" /></p>
 
-<p>All Python libraries that are currently in the environment are listed on the right hand side.
-<img src="content/images/anaconda-navigator-myenv-packages.png" alt="Anaconda Navigator list of packages on right hand side of screen" /></p>
+<p>Select the version of Python you want to work with. By default Anaconda selects the most recent version, in this case Python 3.8 which is fine for this workshop. Choose a short, descriptive name with no spaces.</p>
 
-<p>To start using your new environment, click on the green “play” button and select “open in terminal”.
-<img src="content/images/anaconda-navigator-myenv-terminal.png" alt="Anaconda Navigator open in terminal" /></p>
+<p><img src="/content/images/anaconda-navigator-env-choose-python.png" alt="Anaconda Navigator choose type of python" /></p>
+
+<p>You should see your new environment in the left hand column. Clicking on the name of the environment activates the environment which is indicated by a green triangle or “play” button.</p>
+
+<p><img src="content/images/anaconda-navigator-myenv-activate.png" alt="Anaconda Navigator activate environment" /></p>
+
+<p>All Python libraries that are currently in the environment are listed on the right hand side.</p>
+
+<p><img src="/content/images/anaconda-navigator-myenv-packages.png" alt="Anaconda Navigator list of packages on right hand side of screen" /></p>
+
+<p>To start using your new environment, click on the green “play” button and select “open in terminal”.</p>
+
+<p><img src="/content/images/anaconda-navigator-myenv-terminal.png" alt="Anaconda Navigator open in terminal" /></p>
 
 <h3 id="using-anaconda-without-navigator">Using Anaconda without Navigator</h3>
 
