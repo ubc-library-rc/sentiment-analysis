@@ -5,10 +5,11 @@
  nav_order: 11
 ---
 # What is Sentiment Analysis? A Brief Introduction
-Placeholder for first page of lesson
-![Reactions menu](content/zoom-figures/reactions.png)
 
-## What is Sentiment Analysis? 
+## Definition
+>“Sentiment analysis or opinion mining is the computational study of people's opinions, sentiments, evaluations, attitudes, moods, and emotions.” 
+>
+>Bing Liu,  _Many Facets of Sentiment Analysis._   [A practical guide to sentiment analysis (2017)](http://resolve.library.ubc.ca/cgi-bin/catsearch?bid=8790457). 
 
 
 ## Common Types of Sentiment Analysis
