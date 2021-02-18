@@ -29,7 +29,7 @@ By the end of this workshop participants will be able to:
 | 0:10 | What is Sentiment Analysis? | 
 | 0:20 | Example in practice: NLTK with VADER |
 | 0:30 | Setting up your system with Python & Anaconda | 
-| 1:00 | Running a script and reading results | 
+| 1:00 | Activity: Running a script and reading results | 
 | 1:25 | Discussion and Wrap-up |
 
 ## Resources
