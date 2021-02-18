@@ -25,7 +25,8 @@ This branch of sentiment analysis detects and analyses the emotions that underli
 For example:
 
 4. **Feature or Aspect-Based sentiment analysis**\
-Texts are dissected to identify the features of a product that are discussed and the sentiments expressed about these features or aspects. In many cases, a binary positive/negative does not reflect differing sentiments expressed in different aspects of a single text. /For example, a restaurant reviewer may love the food but be frustrated with the service. 
+Texts are dissected to identify the features of a product that are discussed and the sentiments expressed about these features or aspects. In many cases, a binary positive/negative does not reflect differing sentiments expressed in different aspects of a single text.\
+For example, a restaurant reviewer may love the food but be frustrated with the service. 
 
 
 ## Sentiment Analysis Across Disciplines
