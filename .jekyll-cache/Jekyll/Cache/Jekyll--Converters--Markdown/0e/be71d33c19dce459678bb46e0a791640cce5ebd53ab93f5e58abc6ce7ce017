@@ -1,0 +1,59 @@
+I"f<h2 id="note-this-workshop-is-in-development-and-not-yet-complete">Note: this workshop is in development and not yet complete.</h2>
+
+<h2 id="description">Description</h2>
+<p>Sentiment Analysis is a type of text mining that is used to measure the attitudes, emotion or sentiments in a text. It can be used for a wide range of research topics such as assessing public perceptions of an event, monitoring emotion on social media, and analysing customer reviews and attitudes.</p>
+
+<p>In this workshop we’ll look at Sentiment Analysis across disciplines, discuss strengths and limitations, and introduce common tools and procedures. Then we’ll look at an example using Python’s NLTK (Natural Language Toolkit) with a model called VADER (Valence Aware Dictionary for Sentiment Reasoning).</p>
+
+<p>Finally, we’ll do a hands-on activity to calculate sentiment for a paragraph of text using the programming language Python, Anaconda (an open source tool for organizing and setting up your Python environment), and NLTK.</p>
+
+<h2 id="learning-objectives">Learning objectives</h2>
+
+<p>By the end of this workshop participants will be able to:</p>
+
+<ol>
+  <li>describe what sentiment analysis is, including its strengths and limitations</li>
+  <li>locate and use appropriate software and tools</li>
+  <li>develop code for a sample text that can be modifed and reapplied to other texts</li>
+</ol>
+
+<h2 id="schedule">Schedule</h2>
+
+<table>
+  <tbody>
+    <tr>
+      <td>0:00</td>
+      <td>Welcome and using Zoom</td>
+    </tr>
+    <tr>
+      <td>0:05</td>
+      <td>Orientation</td>
+    </tr>
+    <tr>
+      <td>0:10</td>
+      <td>What is Sentiment Analysis?</td>
+    </tr>
+    <tr>
+      <td>0:20</td>
+      <td>Example in practice: NLTK with VADER</td>
+    </tr>
+    <tr>
+      <td>0:30</td>
+      <td>Setting up your system with Python &amp; Anaconda</td>
+    </tr>
+    <tr>
+      <td>1:00</td>
+      <td>Activity: Running a script and reading results</td>
+    </tr>
+    <tr>
+      <td>1:25</td>
+      <td>Discussion and Wrap-up</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="resources">Resources</h2>
+<ul>
+  <li>[eg. link to external slides]</li>
+</ul>
+:ET

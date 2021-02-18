@@ -1,0 +1,42 @@
+I"�<h1 id="resources">Resources</h1>
+
+<h2 id="tools-used-in-this-workshop">Tools used in this workshop</h2>
+<ul>
+  <li>Anaconda: <a href="https://www.anaconda.com/products/individual">https://www.anaconda.com/products/individual</a></li>
+  <li>VADER (Valence Aware Dictionary and sEntiment Reasoner): <a href="https://pypi.org/project/vaderSentiment/">https://pypi.org/project/vaderSentiment/</a></li>
+  <li>NLTK (Natural Language Toolkit): <a href="https://www.nltk.org/">https://www.nltk.org/</a></li>
+</ul>
+
+<h2 id="sentiment-analysis">Sentiment Analysis</h2>
+<h3 id="guides-and-handbooks">Guides and Handbooks</h3>
+
+<ul>
+  <li>
+    <p>Cambria, Erik, Dipankar Das, Sivaji Bandyopadhyay, and Antonio Feraco.  <em>A practical guide to sentiment analysis.</em> Springer, 2017.<br />
+UBC Library link (ebook available): <a href="http://resolve.library.ubc.ca/cgi-bin/catsearch?bid=8790457">http://resolve.library.ubc.ca/cgi-bin/catsearch?bid=8790457</a></p>
+  </li>
+  <li>
+    <p>Liu, Bing. <em>Sentiment Analysis: Mining Opinions, Sentiments, and Emotions.</em> 2nd ed., Cambridge University Press, 2020. UBC Library link (ebook available): <a href="http://resolve.library.ubc.ca/cgi-bin/catsearch?bid=11466845">http://resolve.library.ubc.ca/cgi-bin/catsearch?bid=11466845</a></p>
+  </li>
+  <li>
+    <p>Thelwall, Mike. “<em>Sentiment Analysis.</em>” The SAGE Handbook of social media research methods, edited by Luke Sloan and Anabel Quan-Haase, SAGE Publications Ltd, 2017, pp 545-554. 
+UBC Library link (ebook available): <a href="http://resolve.library.ubc.ca/cgi-bin/catsearch?bid=9081741">http://resolve.library.ubc.ca/cgi-bin/catsearch?bid=9081741</a></p>
+  </li>
+  <li>
+    <p>Thelwall, Mike.  “<em>Sentiment analysis for small and big data.</em>” The SAGE Handbook of online research methods, edited by Nigel G. Fielding, Raymond M. Lee and Grant Blank. SAGE Publications Ltd, 2017, pp. 344-360. 
+UBC Library link (ebook available): <a href="http://resolve.library.ubc.ca/cgi-bin/catsearch?bid=8980976">http://resolve.library.ubc.ca/cgi-bin/catsearch?bid=8980976</a></p>
+  </li>
+</ul>
+
+<h3 id="vader-valence-aware-dictionary-and-sentiment-reasoner">VADER (Valence Aware Dictionary and sEntiment Reasoner)</h3>
+<ul>
+  <li>Hutto, C.J. &amp; Eric Gilbert, E.E. “VADER: A Parsimonious Rule-based Model for Sentiment Analysis of Social Media Text.” Eighth International Conference on Weblogs and Social Media (ICWSM-14). Ann Arbor, MI, June 2014. <a href="https://www.aaai.org/ocs/index.php/ICWSM/ICWSM14/paper/viewPaper/8109">https://www.aaai.org/ocs/index.php/ICWSM/ICWSM14/paper/viewPaper/8109</a></li>
+</ul>
+
+<h3 id="multilingual-sentiment-analysis">Multilingual Sentiment Analysis</h3>
+
+<ul>
+  <li>Dashtipour, Kia, et al. “Multilingual Sentiment Analysis: State of the Art and Independent Comparison of Techniques.” <em>Cognitive Computation</em>, vol. 8, no. 4, 2016, pp. 757-771. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4981629/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4981629/</a></li>
+</ul>
+
+:ET

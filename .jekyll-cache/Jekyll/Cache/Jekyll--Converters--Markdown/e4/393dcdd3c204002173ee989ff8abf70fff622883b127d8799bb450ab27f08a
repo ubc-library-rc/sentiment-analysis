@@ -1,0 +1,46 @@
+I"�	<h1 id="what-is-sentiment-analysis-a-brief-introduction">What is Sentiment Analysis? A Brief Introduction</h1>
+
+<h2 id="definition">Definition</h2>
+<blockquote>
+  <p>“Sentiment analysis or opinion mining is the computational study of people’s opinions, sentiments, evaluations, attitudes, moods, and emotions.”</p>
+
+  <p>Bing Liu,  <em>Many Facets of Sentiment Analysis.</em>   <a href="http://resolve.library.ubc.ca/cgi-bin/catsearch?bid=8790457">A practical guide to sentiment analysis (2017)</a>.</p>
+</blockquote>
+
+<h2 id="common-types-of-sentiment-analysis">Common Types of Sentiment Analysis</h2>
+
+<ol>
+  <li>
+    <p><strong>Standard sentiment analysis</strong><br />
+Detects polarity of a sentiment within a text and classifies it as Positive, Negative, or Neutral.<br />
+For example:</p>
+  </li>
+  <li>
+    <p><strong>Fine-grained Sentiment Analysis</strong><br />
+Also focused on polarity, this type of sentiment analysis adds a few more categories to obtain more granular results.<br />
+For example:</p>
+  </li>
+  <li>
+    <p><strong>Emotion detection (ED)</strong><br />
+This branch of sentiment analysis detects and analyses the emotions that underlie a text. It makes associations between words and emotions like anger, happiness, frustration, etc.<br />
+For example:</p>
+  </li>
+  <li>
+    <p><strong>Feature or Aspect-Based sentiment analysis</strong><br />
+Texts are dissected to identify the features of a product that are discussed and the sentiments expressed about these features or aspects. In many cases, a binary positive/negative does not reflect differing sentiments expressed in different aspects of a single text.<br />
+For example, a restaurant reviewer may love the food but be frustrated with the service.</p>
+  </li>
+</ol>
+
+<h2 id="sentiment-analysis-across-disciplines">Sentiment Analysis Across Disciplines</h2>
+
+<h2 id="limitations-and-pitfalls">Limitations and Pitfalls</h2>
+
+<h2 id="sample-sentiment-analysis-projects">Sample Sentiment Analysis Projects</h2>
+
+<p><strong>NaSent – Stanford’s Neural Analysis of Sentiment</strong>
+Analyzes sentences from movie reviews and gauges the sentiments they express on a five-point scale from strong like to strong dislike. Experiment with the online demo at <a href="https://nlp.stanford.edu/sentiment/">https://nlp.stanford.edu/sentiment/</a></p>
+
+<h2 id="tools-and-methods-used-for-sentiment-analysis">Tools and Methods used for Sentiment Analysis</h2>
+
+:ET

@@ -1,0 +1,105 @@
+I"�<h1 id="setting-up-your-system-with-python--anaconda">Setting up your system with Python &amp; Anaconda</h1>
+
+<p>Anaconda is an open source tool for organizing and setting up your Python environment. It handles dependencies, organizes Python libraries, and allows you to have multiple instances of Python set up on your machine without trouble.</p>
+
+<p><a href="https://www.anaconda.com/products/individual"><button>Install Anaconda Navigator</button></a></p>
+
+<p>Get started with Conda</p>
+
+<h2 id="getting-started-with-conda-from-navigator">Getting started with Conda from Navigator</h2>
+<p>Open navigator and go to “Environments”.
+<img src="content/images/anaconda-navigator.png" alt="Anaconda Navigator first screen" /></p>
+
+<p>Create a new environment by selecting “create”.
+<img src="content/images/anaconda-navigator-env.png" alt="Anaconda Navigator select environment button" /></p>
+
+<p>Select the version of Python you want to work with. By default Anaconda selects the most recent version, in this case Python 3.8 which is fine for this workshop. Choose a short, descriptive name with no spaces or use
+<img src="content/images/anaconda-navigator-env-choose-python.png" alt="Anaconda Navigator choose type of python" /></p>
+
+<p>You should see your new environment in the left hand column. Clicking on the name of the environment activates the environment which is indicated by a green triangle or “play” button.
+<img src="content/images/anaconda-navigator-myenv-activate.png" alt="Anaconda Navigator activate environment" /></p>
+
+<p>All Python libraries that are currently in the environment are listed on the right hand side.
+<img src="content/images/anaconda-navigator-myenv-packages.png" alt="Anaconda Navigator list of packages on right hand side of screen" /></p>
+
+<p>To start using your new environment, click on the green “play” button and select “open in terminal”.
+<img src="content/images/anaconda-navigator-myenv-terminal.png" alt="Anaconda Navigator open in terminal" /></p>
+
+<h3 id="using-anaconda-without-navigator">Using Anaconda without Navigator</h3>
+
+<p>To get started with Python we need to create a new Anaconda environment using the “conda” command. This calls on Anaconda to make a new bucket with the correct environment variables for a given version of python.</p>
+
+<p>The base command is as follows where “myenv” is the name of your new environment.</p>
+
+<p class="label label-green">Input</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>conda create -n myenv
+</code></pre></div></div>
+
+<p>And if you want to specify a specific version of python you can add it after the base command.</p>
+
+<p class="label label-green">Input</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>conda create -n myenv python=3.6
+</code></pre></div></div>
+
+<p>Once created you need to activate the environment to use it.</p>
+
+<p>Let’s say you’ve made several environments and want to double check or delete what you’ve done.</p>
+
+<p class="label label-green">Input</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>conda info --envs
+</code></pre></div></div>
+
+<p>Activate conda environment</p>
+
+<p class="label label-green">Input</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>conda activate myenv
+</code></pre></div></div>
+
+<p>and check it is correctly set up.</p>
+
+<p class="label label-green">Input</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>conda env --list
+</code></pre></div></div>
+
+<p>More on conda commands and environment management here: https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#updating-an-environment
+{.note}</p>
+
+<h2 id="installing-python-libraries">Installing Python libraries</h2>
+<p>Generally the easiest way to install Python libraries is using “pip” which is a command line tool. To begin with we need to install NLTK (Natural Language ToolKit) using pip.</p>
+
+<p class="label label-green">Input</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pip install nltk
+</code></pre></div></div>
+
+<p>More on pip…
+{.note}</p>
+
+<p>Then we can call on nltk and install the rest of the pieces by “importing” nltk and downloading the vader lexicon (a dataset that determines semantic ranking for different terms) and punkt which is a tokenizer</p>
+
+<p>Open a file in a text editor and type:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>import nltk
+nltk.download('vader_lexicon')
+nltk.download('punkt')
+</code></pre></div></div>
+
+<p>Explore VADER lexicon: https://www.kaggle.com/nltkdata/vader-lexicon
+{.note}</p>
+
+<p>Once you’ve taken these steps you are ready to run Vader commands.</p>
+
+<p>Check NLTK setup</p>
+
+<p class="label label-green">Check version of python
+Input</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code></code></pre></div></div>
+
+<p>Check version of NLTK</p>
+
+<p class="label label-green">Input</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code></code></pre></div></div>
+
+<p>Check version of VADER</p>
+
+<p class="label label-green">Input</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code></code></pre></div></div>
+:ET
