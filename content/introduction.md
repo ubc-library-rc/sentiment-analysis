@@ -1,10 +1,10 @@
 ---
  layout: default
- title: Introduction to Sentiment Analysis
+ title: What is Sentiment Analysis?
  parent: Outline
  nav_order: 11
 ---
-# An Introduction to Sentiment Analysis
+# What is Sentiment Analysis? A Brief Introduction
 Placeholder for first page of lesson
 ![Reactions menu](content/zoom-figures/reactions.png)
 
