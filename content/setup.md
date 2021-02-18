@@ -1,9 +1,11 @@
 ---
-layout: default
-title: Setup
-nav_order: 3
+ layout: default
+ title: Setting up your system with Python & Anaconda
+ parent: Outline
+ nav_order: 15
 ---
-# Setup
+
+# Setting up your system with Python & Anaconda
 
 Anaconda is an open source tool for organizing and setting up your Python environment. It handles dependencies, organizes Python libraries, and allows you to have multiple instances of Python set up on your machine without trouble.
 
