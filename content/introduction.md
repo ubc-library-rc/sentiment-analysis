@@ -26,6 +26,7 @@ An example of a dataset of standard binary sentiment analysis is the [IMDB Movie
 2. **Fine-grained Sentiment Analysis**\
 This type of sentiment analysis is also polarity based, but it uses additional discrete classes to obtain more granular results. 
 It is much more challenging! Emotions are subjective and as more discrete categories are added, it can be hard to pin down whether something is negative or very negative.
+
 ![Fine Grained Sentiment Analysis Example](/content/images/fine-grained-sentiment.png)
 
 An example of a dataset of fine-grained  sentiment is the [Stanford Sentiment Treebank](https://nlp.stanford.edu/sentiment/treebank.html).
@@ -33,6 +34,7 @@ An example of a dataset of fine-grained  sentiment is the [Stanford Sentiment Tr
 * Sentence-level corpus (10,662 sentences)
 * Fully-labeled trees
 * 5 discrete categories
+* 
 ![Stanford Sentiment Treebank](/content/images/stanford-sentiment.png)
 
 3. **Emotion detection (ED)**\
@@ -44,12 +46,15 @@ Let's look at two main types of emotion models:
 **Discrete emotion models (DEMs):** 
 The discrete model of emotions places emotions into distinct classes or categories. 
 One example is Plutchik's wheel of emotions.
+
 ![Plutchik's wheel of emotions](/content/images/Plutchik_wheel_of_emotions.png)
+
 Plutchik, Robert. "A Psychoevolutionary Theory of Emotions." Social Science Information, vol. 21, no. 4-5, 1982, pp. 529-553.
 
 **Dimensional emotion models (DiEMs):**
 The dimensional model shows that there is a relation between emotions; they are not independent. 
 One example is Russell & Mehrabian’s 3‐dimensional emotion model of affects
+
 ![dimensional emotion model](/content/images/Dimensional_emotion_model.png)
 
 Russell, James A., and Albert Mehrabian. "Evidence for a Three-Factor Theory of Emotions." Journal of Research in Personality, vol. 11, no. 3, 1977, pp. 273-294.
@@ -64,7 +69,6 @@ A text can contain multiple sentiments. A standard binary positive/negative anal
 
 In aspect-based sentiment analysis, texts are dissected to identify the features (or aspects) of a product that are discussed and the sentiments expressed about these features or aspects. 
 For example, a restaurant reviewer may love the food but be frustrated with the service. 
-
 
 ![feature based sentiment](/content/images/feature_based_sentiment.png)
 
