@@ -60,8 +60,11 @@ An example of a dataset of emotion detection is the [SMILE Twitter Emotion datas
 * 5 emotions: anger, disgust, happiness, surprise and sadness
 
 4. **Feature or Aspect-Based Sentiment Analysis**\
-Texts are dissected to identify the features of a product that are discussed and the sentiments expressed about these features or aspects. In many cases, a binary positive/negative does not reflect differing sentiments expressed in different aspects of a single text.\
+A text can contain multiple sentiments. A standard binary positive/negative analysis does not reflect these differing sentiments expressed in different aspects of a single text. 
+
+In aspect-based sentiment analysis, texts are dissected to identify the features (or aspects) of a product that are discussed and the sentiments expressed about these features or aspects. 
 For example, a restaurant reviewer may love the food but be frustrated with the service. 
+
 
 ![feature based sentiment](/content/images/feature_based_sentiment.png)
 
