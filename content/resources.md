@@ -31,5 +31,6 @@ UBC Library link (ebook available): <http://resolve.library.ubc.ca/cgi-bin/catse
 
 - Dashtipour, Kia, et al. "Multilingual Sentiment Analysis: State of the Art and Independent Comparison of Techniques." _Cognitive Computation_, vol. 8, no. 4, 2016, pp. 757-771. <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4981629/>
 
-
+### Sample Sentiment Analysis Projects
+NaSent – Stanford’s Neural Analysis of Sentiment Analyzes sentences from movie reviews and gauges the sentiments they express on a five-point scale from strong like to strong dislike. Experiment with the online demo at <https://nlp.stanford.edu/sentiment/>
 
