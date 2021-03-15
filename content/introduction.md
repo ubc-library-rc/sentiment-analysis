@@ -40,6 +40,7 @@ More advanced sentiment analysis goes beyond polarity to detect and analyse the 
 Emotion detection requires defining the model of emotion to be used. Emotion models define how emotions are represented.
 
 Let's look at two main types of emotion models:
+
 **Discrete emotion models (DEMs):** 
 The discrete model of emotions places emotions into distinct classes or categories. 
 One example is Plutchik's wheel of emotions.
