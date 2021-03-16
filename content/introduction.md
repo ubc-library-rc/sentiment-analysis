@@ -70,7 +70,7 @@ A text can contain multiple sentiments. A standard binary positive/negative anal
 In aspect-based sentiment analysis, texts are dissected to identify the features (or aspects) of a product that are discussed and the sentiments expressed about these features or aspects.
 For example, a restaurant reviewer may love the food but be frustrated with the service.
 
-![feature based sentiment](content/images/feature_based_sentiment.png)
+![feature based sentiment](/images/feature_based_sentiment.png)
 
 ## Sentiment Analysis Across Disciplines
 
