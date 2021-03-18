@@ -95,5 +95,3 @@ Input
 ~~~
 pip install nltk
 ~~~
-
-Then we can call on nltk and install the rest of the pieces by “importing” nltk and downloading the vader lexicon (a dataset that determines semantic ranking for different terms) and punkt which is a tokenizer
