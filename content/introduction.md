@@ -11,6 +11,12 @@
 >
 >Bing Liu,  _Many Facets of Sentiment Analysis._   [A practical guide to sentiment analysis (2017)](http://resolve.library.ubc.ca/cgi-bin/catsearch?bid=8790457).
 
+Sentiment analysis was first used to analyze brief communications that expressed an opinion. (Twitter, online reviews, etc.)
+More recently, sentiment analysis has been applied to longer documents, including works of fiction. 
+
+Give it a try using the [Sentiment viz: Tweet Sentiment Visualization](https://www.csc2.ncsu.edu/faculty/healey/tweet_viz/tweet_app/) demo. 
+Type a keyword into the input field, then click the Query button. Recent tweets that contain your keyword are pulled from Twitter and visualized in the Sentiment tab as circles. 
+
 
 ## Common Types of Sentiment Analysis
 
@@ -31,40 +37,15 @@ It is much more challenging! Emotions are subjective and as more discrete catego
 
 An example of a dataset of fine-grained  sentiment is the [Stanford Sentiment Treebank](https://nlp.stanford.edu/sentiment/treebank.html).
 * original data from Rotten Tomatoes
-* Sentence-level corpus (10,662 sentences)
-* Fully-labeled trees
-* 5 discrete categories
+* Sentence-level corpus (10,662 sentences) was then split  into  215,154 phrases
+* Annotators indicated sentiment  and degree for up to 25 different levels of sentiment in 5 classes (very negative, negative, neutral, positive, very positive).
+
+
+NaSent - model trained on the SST data. Try the live demo! http://nlp.stanford.edu:8080/sentiment/rntnDemo.html
 
 ![Stanford Sentiment Treebank](/images/stanford-sentiment.png)
 
-3. **Emotion detection (ED)**\
-More advanced sentiment analysis goes beyond polarity to detect and analyse the emotions that underlie a text. It makes associations between words and emotions like anger, disgust, happiness, frustration, surprise etc.
-Emotion detection requires defining the model of emotion to be used. Emotion models define how emotions are represented.
-
-Let's look at two main types of emotion models:
-
-**Discrete emotion models (DEMs):**
-The discrete model of emotions places emotions into distinct classes or categories.
-One example is Plutchik's wheel of emotions.
-
-![Plutchik's wheel of emotions](/images/Plutchik_wheel_of_emotions.png)
-
-Plutchik, Robert. "A Psychoevolutionary Theory of Emotions." Social Science Information, vol. 21, no. 4-5, 1982, pp. 529-553.
-
-**Dimensional emotion models (DiEMs):**
-The dimensional model shows that there is a relation between emotions; they are not independent.
-One example is Russell & Mehrabian’s 3‐dimensional emotion model of affects
-
-![dimensional emotion model](/images/Dimensional_emotion_model.png)
-
-Russell, James A., and Albert Mehrabian. "Evidence for a Three-Factor Theory of Emotions." Journal of Research in Personality, vol. 11, no. 3, 1977, pp. 273-294.
-
-An example of a dataset of emotion detection is the [SMILE Twitter Emotion dataset](https://www.kaggle.com/ashkhagan/smile-twitter-emotion-dataset).
-* 3085 tweets from 13 Twitter handles affiliated with visitors to the British Museum
-* created for the purpose of classifying emotions, expressed on Twitter towards arts and cultural experiences in museums.
-* 5 emotions: anger, disgust, happiness, surprise and sadness
-
-4. **Feature or Aspect-Based Sentiment Analysis**\
+3. **Feature or Aspect-Based Sentiment Analysis**\
 A text can contain multiple sentiments. A standard binary positive/negative analysis does not reflect these differing sentiments expressed in different aspects of a single text.
 
 In aspect-based sentiment analysis, texts are dissected to identify the features (or aspects) of a product that are discussed and the sentiments expressed about these features or aspects.
@@ -72,15 +53,34 @@ For example, a restaurant reviewer may love the food but be frustrated with the 
 
 ![feature based sentiment](/images/feature_based_sentiment.png)
 
-## Sentiment Analysis Across Disciplines
+4. **Emotion detection (ED)**\
+More advanced sentiment analysis goes beyond polarity to detect and analyse the emotions that underlie a text. It makes associations between words and emotions like anger, disgust, happiness, frustration, surprise etc.
+Emotion detection requires defining the model of emotion to be used. Emotion models define how emotions are represented.
+
+Let's look at two main types of emotion models:
+
+**Discrete emotion models (DEMs):**
+The discrete model of emotions places emotions into distinct classes or categories.
+
+**Dimensional emotion models (DiEMs):**
+The dimensional model shows that there is a relation between emotions; they are not independent.
+
+One example is Plutchik's wheel of emotions.
+![Plutchik's wheel of emotions](/images/Plutchik_wheel_of_emotions.png)
+
+Plutchik, Robert. "A Psychoevolutionary Theory of Emotions." Social Science Information, vol. 21, no. 4-5, 1982, pp. 529-553.
+
+
+
+
+## How Does it Work?
+There are two main approaches to sentiment analysis, supervised learning and unsupervised learning
+* **Unsupervised** learning (lexical or lexicon-based) methods is when a sentiment of a text is analysed based on the presence of unambiguous affect words such as happy, sad, afraid, bored, angry. 
+* **Supervised** learning (statistical or machine learning) “works by feeding the program with examples of positive and negative texts so that the algorithm can learn their typical distinguishing features.”
+Thelwall, Mike. “Sentiment Analysis.” The SAGE Handbook of social media research methods, edited by Luke Sloan and Anabel Quan-Haase, SAGE Publications Ltd, 2017, pp 545-554.  
 
 
 ## Limitations and Pitfalls
-
-## Sample Sentiment Analysis Projects
-
-**NaSent – Stanford's Neural Analysis of Sentiment**
-Analyzes sentences from movie reviews and gauges the sentiments they express on a five-point scale from strong like to strong dislike. Experiment with the online demo at <https://nlp.stanford.edu/sentiment/>
 
 
 ## Tools and Methods used for Sentiment Analysis
