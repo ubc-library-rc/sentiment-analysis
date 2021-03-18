@@ -33,4 +33,4 @@ By the end of this workshop participants will be able to:
 | 1:25 | Discussion and Wrap-up |
 
 ## Resources
-* [eg. link to external slides]
+* [Link to workshop slides](https://docs.google.com/presentation/d/1Ac-nTdlWu3XMqCjf6-T6C4WnvvN12oXZvI7yOU4D7X0/edit?usp=sharing)
