@@ -29,6 +29,8 @@ An example of a dataset of standard binary sentiment analysis is the [IMDB Movie
 * collection of 50,000 movie reviews from IMDB
 * binary - values are positive or negative only
 
+![Large Movie Review Dataset](/images/movie_review_dataset.png)
+
 
 2. **Fine-grained Sentiment Analysis**\
 This type of sentiment analysis is also polarity based, but it uses additional discrete classes to obtain more granular results.
@@ -43,7 +45,7 @@ An example of a dataset of fine-grained  sentiment is the [Stanford Sentiment Tr
 
 NaSent - model trained on the SST data. Try the live demo! http://nlp.stanford.edu:8080/sentiment/rntnDemo.html
 
-![Stanford Sentiment Treebank](/images/stanford-sentiment.png)
+![Stanford Sentiment Treebank](/images/stanford-sentiment-trees.png)
 
 3. **Feature or Aspect-Based Sentiment Analysis**\
 A text can contain multiple sentiments. A standard binary positive/negative analysis does not reflect these differing sentiments expressed in different aspects of a single text.
@@ -51,7 +53,7 @@ A text can contain multiple sentiments. A standard binary positive/negative anal
 In aspect-based sentiment analysis, texts are dissected to identify the features (or aspects) of a product that are discussed and the sentiments expressed about these features or aspects.
 For example, a restaurant reviewer may love the food but be frustrated with the service.
 
-![feature based sentiment](/images/feature_based_sentiment.png)
+![feature based sentiment](/images/aspect_sentiment.png)
 
 4. **Emotion detection (ED)**\
 More advanced sentiment analysis goes beyond polarity to detect and analyse the emotions that underlie a text. It makes associations between words and emotions like anger, disgust, happiness, frustration, surprise etc.
