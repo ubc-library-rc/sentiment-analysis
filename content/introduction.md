@@ -43,7 +43,7 @@ An example of a dataset of fine-grained  sentiment is the [Stanford Sentiment Tr
 * Annotators indicated sentiment  and degree for up to 25 different levels of sentiment in 5 classes (very negative, negative, neutral, positive, very positive).
 
 ![Stanford Sentiment Treebank](/images/stanford-sentiment-trees.png)
-NaSent - model trained on the SST data. [Try the live demo![(http://nlp.stanford.edu:8080/sentiment/rntnDemo.html)
+NaSent - model trained on the SST data. [Try the live demo!](http://nlp.stanford.edu:8080/sentiment/rntnDemo.html)
 
 **3. Feature or Aspect-Based Sentiment Analysis**
 A text can contain multiple sentiments. A standard binary positive/negative analysis does not reflect these differing sentiments expressed in different aspects of a single text.
@@ -72,13 +72,13 @@ The dimensional model shows that there is a relation between emotions; they are 
 One common example of a model of emotion is Plutchik's wheel of emotions, whch is a discrete emotion model (DEM).
 ![Plutchik's wheel of emotions](/images/Plutchik_wheel_of_emotions.png)
 
-Plutchik, Robert. "A Psychoevolutionary Theory of Emotions." Social Science Information, vol. 21, no. 4-5, 1982, pp. 529-553.
+Plutchik, Robert. "A Psychoevolutionary Theory of Emotions." _Social Science Information_, vol. 21, no. 4-5, 1982, pp. 529-553.
 
 A sample humanities project which uses emotion analysis is [Measured Unrest in the Poetry of the Black Arts Movement](https://scholarslab.lib.virginia.edu/blog/measured-unrest-in-the-poetry-of-the-black-arts-movement/) which 
 analyzes the expression of emotions in the poetry of the Black Arts Movement of the 1960s and 1970s and looks at how the feelings associated with injustice are coded in terms of race and gender.
 
-For further reading on emotion and literary studies, we recommend:
-Kim, Evgeny, and Roman Klinger. ["A Survey on Sentiment and Emotion Analysis for Computational Literary Studies.](https://zfdg.de/2019_008) "ZfdG - Zeitschrift für digitale Geisteswissenschaften, 2018. 
+For further reading on emotion and literary studies, we recommend this recent survey:
+Kim, Evgeny, and Roman Klinger. ["A Survey on Sentiment and Emotion Analysis for Computational Literary Studies."](https://zfdg.de/2019_008) _ZfdG - Zeitschrift für digitale Geisteswissenschaften_, 2018. 
 
 
 ## How Does it Work?
@@ -88,8 +88,12 @@ There are two main approaches to sentiment analysis, supervised learning and uns
 
 Thelwall, Mike. “Sentiment Analysis.” The SAGE Handbook of social media research methods, edited by Luke Sloan and Anabel Quan-Haase, SAGE Publications Ltd, 2017, pp 545-554.  
 
+![Sentiemnt Analysis Approaches](/images/Sentiment-Classification-Approaches.png) 
+
+Chart from:
+Jagdale, Rajkumar et al. "Sentiment Analysis of Events from Twitter using Open Source Tool." _International Journal of Computer Science and Mobile Computing_, vol. 5, no. 4, 2016, pp. 475
+
 
 ## Limitations and Pitfalls
 
 
-## Tools and Methods used for Sentiment Analysis
