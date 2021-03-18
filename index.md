@@ -6,8 +6,6 @@ has_children: true
 has_toc: false
 ---
 
-## Note: this workshop is in development and not yet complete.
-
 ## Description
 Sentiment Analysis is a type of text mining that is used to measure the attitudes, emotion or sentiments in a text. It can be used for a wide range of research topics such as assessing public perceptions of an event, monitoring emotion on social media, and analysing customer reviews and attitudes.
 
