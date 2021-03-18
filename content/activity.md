@@ -16,7 +16,53 @@ If you have not had a chance to install Anaconda and set up your environment, yo
 # Getting Started
 For this activity we'll be making a file.
 
-To use VADER we need to import the SentimentIntensityAnalyzer module into our workspace. The way we do this is by calling on what we've already set up when we installed nltk and asking it to import an additional
+Create a new file from the terminal using the built-in text editor nano.
+
+Input
+{: .label .label-green}
+~~~
+nano touch myscript.py
+~~~
+
+Open the file.
+Input
+{: .label .label-green}
+~~~
+nano myscript.py
+~~~
+
+Copy over the following:
+
+Input
+{: .label .label-green}
+~~~
+import nltk
+nltk.download('vader_lexicon')
+nltk.download('punkt')
+~~~
+
+Enter **ESC** and select **Y** for yes when prompted. Your file is now saved in the location you were in when you created it. You can double check by listing the files in your current location:
+
+Input
+{: .label .label-green}
+~~~
+ls
+~~~
+
+Run the file:
+Input
+{: .label .label-green}
+~~~
+python myscript.py
+~~~
+
+Once you’ve taken these steps you are ready to run Vader commands.
+
+Explore VADER lexicon: https://www.kaggle.com/nltkdata/vader-lexicon
+{.note}
+
+## Using VADER
+To use VADER we need to import the SentimentIntensityAnalyzer module into our workspace.
 
 Input
 {: .label .label-green}
@@ -60,12 +106,14 @@ for key in sorted(scores):
 
 ### Putting it all together
 
-You can save all of these steps as a script by creating a .py file in a text editor such as nano from the terminal.
+You can save all of these steps in your script file.
+
+Open it in nano again.
 
 Input
 {: .label .label-green}
 ~~~
-nano touch myscript.py
+nano myscript.py
 ~~~
 
 Copy paste the following:
@@ -87,13 +135,7 @@ for key in sorted(scores):
         print('{0}: {1}, '.format(key, scores[key]), end='')
 ~~~
 
-Enter **ESC** and select **Y** for yes when prompted. Your file is now saved in the location you were in when you created it. You can double check by listing the files in your current location:
-
-Input
-{: .label .label-green}
-~~~
-ls
-~~~
+Again enter **ESC** and select **Y** for yes when prompted. Your file is now saved in the location you were in when you created it.
 
 Now we can try running the script!
 

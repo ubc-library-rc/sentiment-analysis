@@ -100,15 +100,3 @@ More on pip...
 {.note}
 
 Then we can call on nltk and install the rest of the pieces by “importing” nltk and downloading the vader lexicon (a dataset that determines semantic ranking for different terms) and punkt which is a tokenizer
-
-Open a file in a text editor and type:
-~~~
-import nltk
-nltk.download('vader_lexicon')
-nltk.download('punkt')
-~~~
-
-Explore VADER lexicon: https://www.kaggle.com/nltkdata/vader-lexicon
-{.note}
-
-Once you’ve taken these steps you are ready to run Vader commands.
