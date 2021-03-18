@@ -25,11 +25,12 @@ One of the basic tasks in sentiment analysis is to determine whether the opinion
 
 ![Standard Sentiment Analysis example](/images/basic-sentiment.png)
 
-An example of a dataset of standard binary sentiment analysis is the [IMDB Movie Reviews Dataset](https://www.kaggle.com/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)
-* collection of 50,000 movie reviews from IMDB
-* binary - values are positive or negative only
+One example of a dataset of standard binary sentiment analysis is the [Large Movie Review Dataset](https://ai.stanford.edu/~amaas/data/sentiment/), sometimes called the IMDB movie review dataset. This dataset is a collection of 50,000 movie reviews from IMDB  along with their associated binary sentiment polarity labels. Values are positive or negative only with positive being 0 and negative being 1.
 
 ![Large Movie Review Dataset](/images/movie_review_dataset.png)
+
+Andrew L. Maas, Raymond E. Daly, Peter T. Pham, Dan Huang, Andrew Y. Ng, and Christopher Potts. (2011). 
+Learning Word Vectors for Sentiment Analysis. _The 49th Annual Meeting of the Association for Computational Linguistics_.
 
 
 **2. Fine-grained Sentiment Analysis**
@@ -42,18 +43,21 @@ An example of a dataset of fine-grained  sentiment is the [Stanford Sentiment Tr
 * Sentence-level corpus (10,662 sentences) was then split  into  215,154 phrases
 * Annotators indicated sentiment  and degree for up to 25 different levels of sentiment in 5 classes (very negative, negative, neutral, positive, very positive).
 
+One of the most well-known datasets using fine-grained sentiment analysis is the [Stanford Sentiment Treebank](https://nlp.stanford.edu/sentiment/index.html). 
+
+The Stanford Sentiment Treebank is based on movie reviews from Rotten Tomatoes. They scraped reviews and ended up with a total of 10,662 sentences, half of which were negative and the other half positive. Those sentences were converted to lowercase and removing non-English sentences, they use the Stanford Parser to split sentences into phrases, ending up with a total of 215,154 phrases. Annotators were then tasked with indicating the sentiment and degree of sentiment for each phrase using a slider of up to 25 different levels of sentiment in 5 classes (very negative, negative, neutral, positive, very positive) .
+
 ![Stanford Sentiment Treebank](/images/stanford-sentiment-trees.png)
 NaSent - model trained on the SST data. [Try the live demo!](http://nlp.stanford.edu:8080/sentiment/rntnDemo.html)
 
 **3. Feature or Aspect-Based Sentiment Analysis**
 A text can contain multiple sentiments. A standard binary positive/negative analysis does not reflect these differing sentiments expressed in different aspects of a single text.
 
-In aspect-based sentiment analysis, texts are dissected to identify the features (or aspects) of a product that are discussed and the sentiments expressed about these features or aspects.
-For example, a restaurant reviewer may love the food but be frustrated with the service.
+In aspect-based sentiment analysis, texts are dissected to identify the features (or aspects) of a product that are discussed and the sentiments expressed about these features or aspects. For example, a restaurant reviewer may love the food but be frustrated with the service.
 
 ![feature based sentiment](/images/aspect_sentiment.png)
 
-A sample project which uses aspect-based sentiment analysis is the [Aspect Extraction and Opinion Analysis](https://achyutjoshi.github.io/aspect_extraction/overview) project by Achyut Joshi, Ishika Arora, Sumedha Raman & Andrew Giannotto as a part of the CSE6242 course at Georgia Tech. Using various NLP models, the project aims to extract opinions regarding different aspects of a product from their Amazon product reviews, group them and determine the respective polarities. This allows users to find product reviews based on specific features of a product.
+A sample project which uses aspect-based sentiment analysis is the [Aspect Extraction and Opinion Analysis](https://achyutjoshi.github.io/aspect_extraction/overview)  project by Achyut Joshi, Ishika Arora, Sumedha Raman & Andrew Giannotto as a part of their CSE6242 course at Georgia Tech. Using various NLP models, the project aims to extract opinions regarding different aspects of a product from their Amazon product reviews, group them and determine the respective polarities. This allows users to find product reviews based on specific features of a product.
 
 ![amazon aspect extraction](/amazon_aspect_extraction.png)
 
