@@ -28,8 +28,8 @@ By the end of this workshop participants will be able to:
 | 0:00 | Welcome and using Zoom | 
 | 0:05 | Orientation | 
 | 0:10 | What is Sentiment Analysis? | 
-| 0:20 | Example in practice: NLTK with VADER |
-| 0:30 | Setting up your system with Python & Anaconda | 
+| 0:30 | Example in practice: NLTK with VADER |
+| 0:40 | Setting up your system with Python & Anaconda | 
 | 1:00 | Activity: Running a script and reading results | 
 | 1:25 | Discussion and Wrap-up |
 
