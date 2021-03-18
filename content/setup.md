@@ -112,25 +112,3 @@ Explore VADER lexicon: https://www.kaggle.com/nltkdata/vader-lexicon
 {.note}
 
 Once you’ve taken these steps you are ready to run Vader commands.
-
-Check NLTK setup
-
-Check version of python
-Input
-{: .label .label-green}
-~~~
-~~~
-
-Check version of NLTK
-
-Input
-{: .label .label-green}
-~~~
-~~~
-
-Check version of VADER
-
-Input
-{: .label .label-green}
-~~~
-~~~
