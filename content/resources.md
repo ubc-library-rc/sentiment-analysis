@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Resources
+title: Tools and Guides
 nav_order: 20
 ---
-# Resources
+# Tools and Guides
 
 ## Tools used in this workshop
 - Anaconda: <https://www.anaconda.com/products/individual>
